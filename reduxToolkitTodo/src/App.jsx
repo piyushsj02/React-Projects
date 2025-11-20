@@ -11,7 +11,10 @@ function App() {
 
   return (
     <Provider store={store}>
-      <h1>Redux Toolkit</h1>
+      <h1 className='bg-gray-800 rounded border border-gray-700 text-white text-5xl font-bold hover:underline py-6'>
+        Redux Toolkit
+      </h1>
+
       <AddTodo/>
       <Todos/>
     </Provider>
